@@ -112,3 +112,6 @@ const ir = 0.225;
 let liquido = base - 365.12;
 
 console.log(liquido);
+
+
+
