@@ -92,6 +92,11 @@ function div(a, b) {
 function mod(a, b) {
    return a % b;
 }
+console.log(sum(a, b));
+console.log(sub(a, b));
+console.log(mult(a, b));
+console.log(div(a, b));
+console.log(mod(a, b));
 
 let primeiroNum = 4;
 let segundoNum = 6;
@@ -103,4 +108,49 @@ function maiorNum(primeiroNum , segundoNum) {
       return segundoNum + ' é maior que ' + primeiroNum;
    }
 }
-   
+console.log(maiorNum(primeiroNum, segundoNum));
+
+const num1 = 5;
+const num2 = 10;
+const num3 = 15;
+
+function maiorNum1(num1, num2, num3) {
+   if (num1 > num2 && num1 > num3) {
+      return num1;
+   } else if (num2 > num1 && num2 > num3) {
+      return num2;
+   } else {
+      return num3;
+   }
+}
+console.log(maiorNum1(num1, num2, num3));
+
+
+const numero1 = 5;
+
+function positivoNegativo(numero1) {
+   if (numero1 > 0) {
+      return 'positive';
+   } else if (numero1 < 0) {
+      return 'negative';
+   } else {
+      return 'zero';
+   }
+}
+console.log(positivoNegativo(numero1));
+
+const angulo1 = 60;
+const angulo2 = 60;
+const angulo3 = 60;
+
+function triangulo(angulo1, angulo2, angulo3) {
+   if (angulo1 + angulo2 + angulo3 === 180) {
+      return true;
+   } else {
+      return false;
+   }
+}
+if (angulo1 < 0 || angulo2 < 0 || angulo3 < 0) {
+   console.log('Erro: ângulo inválido');
+}
+console.log(triangulo(angulo1, angulo2, angulo3));
