@@ -167,5 +167,3 @@ if (base <= 1903.98) {
 } else if (base > 4664.68) {
     ir = (base * 0.275) - 869.36
 }
-
-console.log('Salário: ' + (base - ir - trybe))
