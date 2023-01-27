@@ -93,7 +93,7 @@ const nota = 66;
     console.log("Infelizmente você reprovou");
  }*/
 
- const currentHour = 20;
+ /*const currentHour = 20;
  let message = "";
 
  if (currentHour >= 22) {
@@ -116,7 +116,26 @@ const nota = 66;
     message = "café passado";
  }
 
- console.log(message);
- 
- 
+ console.log(message);*/
 
+ 
+/*const bebidaPrincipal = "cafezinho";
+const bebidaAlternativa = "suco de laranja";
+
+if (bebidaPrincipal === "cafezinho" || bebidaAlternativa === "suco de laranja") {
+    console.log("obrigado por me atender");
+}
+
+else {
+    console.log("não pedi por isso");
+}*/
+
+let weekDay = "quarta-feira"
+
+if (weekDay === "segunda-geira" || weekDay === "terça-feira" || weekDay === "quarta-feira" || weekDay === "quinta-feira" || weekDay === "sexta-feira") {
+    console.log("Oba, mais um dia de aprendizado na Trybe");
+}
+
+else if (weekDay === "sábado" || weekDay === "domingo") {
+    console.log(Finalmente);
+}
