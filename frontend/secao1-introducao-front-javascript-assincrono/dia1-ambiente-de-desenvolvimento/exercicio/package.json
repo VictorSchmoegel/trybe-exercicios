@@ -1,18 +1,16 @@
 {
-  "name": "dia1-ambiente-de-desenvolvimento",
+  "name": "exercicio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --open",
-    "build": "vite build"
+    "devs": "vite --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "clipboard-copy": "^4.0.1",
-    "nanoid": "^4.0.1",
+    "validator": "^13.9.0",
     "vite": "^4.2.1"
   },
   "type": "module"
