@@ -1,16 +1,17 @@
 {
-  "name": "exercicios",
+  "name": "exercicio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --open"
+    "devs": "vite --open"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "validator": "^13.9.0",
-    "vite": "^4.2.0"
+    "vite": "^4.2.1"
   },
   "type": "module"
 }
